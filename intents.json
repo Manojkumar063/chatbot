@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?"],
+      "responses": ["I'm your friendly chatbot.", "I'm a simple chatbot created to assist you."]
+    },
+    {
+      "tag": "birthday",
+      "patterns": [
+        "It's my birthday",
+        "Today is my birthday",
+        "Wish me a happy birthday",
+        "Can you wish me happy birthday?",
+        "I am celebrating my birthday",
+        "Birthday vibes today",
+        "It's my special day",
+        "You forgot my birthday",
+        "Say happy birthday to me"
+      ],
+      "responses": [
+        "🎉 Happy Birthday! Wishing you a day filled with love and joy!",
+        "🥳 Happy Birthday! Hope your day is as amazing as you are!",
+        "🎂 Sending you warm birthday wishes and a big virtual hug!",
+        "🎈 Have a fantastic birthday! Celebrate to the fullest!",
+        "🎁 Wishing you health, happiness, and all your dreams come true!",
+        "✨ Happy Birthday! Keep shining and smiling always!"
+      ]
+    }
+  ]
+}
